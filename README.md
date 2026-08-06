@@ -1,4 +1,6 @@
-# Pd5Ox/CeO2(111) structure search
+# Asynchronous topology-guided random and genetic structure search with staged DFT relaxation.
+
+AsyncTopoAIRSS is a lightweight global-structure-search workflow for atomistic systems with expensive first-principles energies. It combines chemically constrained random generation, topology-aware mutation and crossover, asynchronous file-queue scheduling, and staged DFT relaxation. Candidates are screened through short, intermediate, and full relaxations, while low-energy structurally distinct minima are retained for subsequent analysis.
 
 This repository implements a file-queue-based global search for `Pd5Ox`
 (`x = 0...10`) clusters supported on a one-trilayer `3 x 3` CeO2(111) slab.
