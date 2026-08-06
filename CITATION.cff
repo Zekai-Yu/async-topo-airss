@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use this workflow, cite the software release and the AIRSS and genetic-search methods relevant to your study."
+title: "Pd5Ox/CeO2(111) asynchronous structure search"
+version: 0.1.0
+date-released: 2026-08-06
+license: MIT
+authors:
+  - name: "Pd5Ox/CeO2 workflow contributors"
+preferred-citation:
+  type: software
+  title: "Pd5Ox/CeO2(111) asynchronous structure search"
+  version: 0.1.0
+  year: 2026

@@ -1,0 +1,9 @@
+name: pd5ox-ceo2-search
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - ase>=3.22
+  - numpy>=1.22
+  - scipy>=1.8
+  - pytest>=7

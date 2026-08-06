@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pd5ox-ceo2-search"
+version = "0.1.0"
+description = "Asynchronous AIRSS and topology-GA search for supported Pd5Ox clusters"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+authors = [{name = "Pd5Ox/CeO2 workflow contributors"}]
+dependencies = [
+  "ase>=3.22",
+  "numpy>=1.22",
+  "scipy>=1.8",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["scripts"]
